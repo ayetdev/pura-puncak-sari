@@ -408,6 +408,14 @@ body.dark footer { background: #0A0905; }
   gap: 1.5rem;
   margin-top: 1rem;
 }
+
+.kelompok-card:nth-child(4) {
+  grid-column: 2;
+}
+
+.kelompok-card:nth-child(5) {
+  grid-column: 3;
+}
 .kelompok-card {
   background: var(--cream);
   border: 1px solid var(--line);
