@@ -403,19 +403,22 @@ body.dark footer { background: #0A0905; }
   border-top: 1px solid var(--line);
 }
 .kelompok-grid {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
   gap: 1.5rem;
   margin-top: 1rem;
 }
 
-.kelompok-card:nth-child(4) {
-  grid-column: 2;
+.kelompok-card {
+  background: var(--cream);
+  border: 1px solid var(--line);
+  padding: 2rem 1.5rem;
+  text-align: center;
+  transition: transform 0.3s, box-shadow 0.3s, border-color 0.25s;
+  width: calc(33.333% - 1rem);
 }
 
-.kelompok-card:nth-child(5) {
-  grid-column: 3;
-}
 .kelompok-card {
   background: var(--cream);
   border: 1px solid var(--line);
