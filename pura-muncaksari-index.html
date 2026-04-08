@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Pura Luhur Muncaksari — Dokumentasi Kunjungan</title>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;1,400&family=Inter:wght@300;400;500&display=swap" rel="stylesheet"/>
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+
+  <!-- NAVBAR -->
+  <nav id="navbar">
+    <div class="nav-inner">
+      <a href="#" class="nav-logo">🛕 Pura Muncaksari</a>
+      <button class="hamburger" id="hamburger">
+        <span></span><span></span><span></span>
+      </button>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#tentang">Tentang</a></li>
+        <li><a href="#video">Video</a></li>
+        <li><a href="#galeri">Galeri</a></li>
+        <li><a href="#kelompok">Kelompok</a></li>
+        <button class="theme-toggle" id="themeToggle" title="Toggle dark mode">🌙</button>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- HERO -->
+  <section class="hero">
+    <div class="hero-overlay"></div>
+    <div class="hero-content">
+      <div class="hero-label">Tugas Agama Hindu</div>
+      <h1>Pura Luhur <em>Muncaksari</em></h1>
+      <p>Pura suci di lereng Gunung Batukaru, Tabanan — dokumentasi kunjungan dan wawancara langsung di Pura Luhur Muncaksari, Tabanan, Bali.</p>
+      <a href="#video" class="btn-primary">Tonton Video ↓</a>
+    </div>
+  </section>
+
+  <!-- TENTANG PURA -->
+  <section class="tentang" id="tentang">
+    <div class="container">
+      <div class="section-label">Profil Pura</div>
+      <h2 class="section-title">Tentang Pura Luhur <em>Muncaksari</em></h2>
+      <div class="tentang-grid">
+        <div class="tentang-text">
+          <p>Pura Luhur Muncaksari adalah salah satu pura suci yang terletak di lereng Gunung Batukaru, tepatnya di Desa Penatahan, Kecamatan Penebel, Kabupaten Tabanan, Bali. Pura ini merupakan salah satu pura yang sangat disakralkan oleh masyarakat Bali, khususnya masyarakat Tabanan.</p>
+          <p>Pura Luhur Muncaksari dipercaya sebagai tempat berstana Ida Sang Hyang Widhi Wasa dalam manifestasinya sebagai penjaga alam dan kesuburan. Keberadaannya di lereng gunung yang sejuk dan asri memberikan suasana spiritual yang sangat kental bagi para pemedek yang datang untuk sembahyang.</p>
+          <p>Pura ini memiliki nilai sejarah dan budaya yang tinggi, serta menjadi tempat penyelenggaraan berbagai upacara keagamaan Hindu Bali yang sakral. Setiap odalan, ribuan umat Hindu dari berbagai penjuru Bali datang untuk melakukan persembahyangan di pura ini.</p>
+          <div class="info-grid">
+            <div class="info-item">
+              <div class="info-icon">📍</div>
+              <div>
+                <div class="info-label">Lokasi</div>
+                <div class="info-value">Tabanan, Bali</div>
+              </div>
+            </div>
+            <div class="info-item">
+              <div class="info-icon">🏔️</div>
+              <div>
+                <div class="info-label">Gunung</div>
+                <div class="info-value">Lereng Gunung Batukaru</div>
+              </div>
+            </div>
+            <div class="info-item">
+              <div class="info-icon">🛕</div>
+              <div>
+                <div class="info-label">Jenis</div>
+                <div class="info-value">Pura Luhur</div>
+              </div>
+            </div>
+            <div class="info-item">
+              <div class="info-icon">📅</div>
+              <div>
+                <div class="info-label">Odalan</div>
+                <div class="info-value">Setiap 210 hari</div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="tentang-img-wrap">
+          <!-- Ganti dengan foto pura asli -->
+          <img src="images/foto pura muncaksari.jpeg" alt="Pura Besakih" onerror="this.parentElement.classList.add('no-img')"/>
+          <div class="img-placeholder">🛕<br>Foto Pura Muncak sari</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- VIDEO WAWANCARA -->
+  <section class="video-section" id="video">
+    <div class="container">
+      <div class="section-label" style="justify-content:center">Dokumentasi</div>
+      <br><br>
+      <h2 class="section-title" style="text-align:center">Video <em>Wawancara</em></h2>
+      <br><br><br>
+      <div class="video-wrap">
+        <div class="youtube-wrap">
+         <div class="youtube-wrap">
+  <iframe width="760" height="715" src="https://www.youtube.com/embed/cKgnDmpb4BU?si=nYMuyglAEWx23kR0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</div>
+        </div>
+        <div class="video-caption">Wawancara di Pura Luhur Muncaksari — Tugas Agama Hindu</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- GALERI FOTO -->
+  <section class="galeri" id="galeri">
+    <div class="container">
+      <div class="section-label" style="justify-content:center">Dokumentasi Foto</div>
+      <h2 class="section-title" style="text-align:center">Galeri <em>Foto</em></h2>
+      <p class="section-subtitle">Momen-momen selama kunjungan ke Pura Luhur Muncaksari</p>
+      <div class="galeri-grid">
+
+        <div class="galeri-item" onclick="openLightbox('image/foto1.jpg','Suasana Pura Besakih')">
+          <img src="images/WhatsApp Image 2026-03-17 at 12.39.41 PM (2).jpeg" alt="Foto 1" onerror="this.parentElement.classList.add('no-img')"/>
+          <div class="galeri-overlay"><span>Suasana Pura Besakih</span></div>
+          <div class="galeri-zoom">🔍</div>
+        </div>
+
+        <div class="galeri-item" onclick="openLightbox('image/foto2.jpg','Kompleks Pura')">
+          <img src="images/WhatsApp Image 2026-03-09 at 10.58.54 AM (1).jpeg" alt="Foto 2" onerror="this.parentElement.classList.add('no-img')"/>
+          <div class="galeri-overlay"><span>Kompleks Pura</span></div>
+          <div class="galeri-zoom">🔍</div>
+        </div>
+
+        <div class="galeri-item" onclick="openLightbox('image/foto3.jpg','Proses Wawancara')">
+          <img src="images/WhatsApp Image 2026-03-09 at 10.59.12 AM (1).jpeg" alt="Foto 3" onerror="this.parentElement.classList.add('no-img')"/>
+          <div class="galeri-overlay"><span>Proses Wawancara</span></div>
+          <div class="galeri-zoom">🔍</div>
+        </div>
+
+        <div class="galeri-item" onclick="openLightbox('image/foto4.jpg','Foto Bersama')">
+          <img src="images/WhatsApp Image 2026-03-09 at 10.58.50 AM.jpeg" alt="Foto 4" onerror="this.parentElement.classList.add('no-img')"/>
+          <div class="galeri-overlay"><span>Foto Bersama</span></div>
+          <div class="galeri-zoom">🔍</div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- KELOMPOK -->
+  <section class="kelompok" id="kelompok">
+    <div class="container">
+      <div class="section-label" style="justify-content:center">Tim Kami</div>
+      <h2 class="section-title" style="text-align:center">Anggota <em>Kelompok</em></h2>
+      <p class="section-subtitle">Kelompok yang melaksanakan kunjungan dan wawancara ini</p>
+      <div class="kelompok-grid">
+
+        <div class="kelompok-card">
+          <div class="kelompok-avatar">A</div>
+          <div class="kelompok-name">Nama Anggota 1</div>
+          <div class="kelompok-role">Ketua</div>
+        </div>
+
+        <div class="kelompok-card">
+          <div class="kelompok-avatar">B</div>
+          <div class="kelompok-name">Nama Anggota 2</div>
+          <div class="kelompok-role">Pewawancara</div>
+        </div>
+
+        <div class="kelompok-card">
+          <div class="kelompok-avatar">C</div>
+          <div class="kelompok-name">Nama Anggota 3</div>
+          <div class="kelompok-role">Pewawancara</div>
+        </div>
+
+        <div class="kelompok-card">
+          <div class="kelompok-avatar">D</div>
+          <div class="kelompok-name">Nama Anggota 4</div>
+          <div class="kelompok-role">Dokumentasi</div>
+        </div>
+
+        <div class="kelompok-card">
+          <div class="kelompok-avatar">E</div>
+          <div class="kelompok-name">Nama Anggota 5</div>
+          <div class="kelompok-role">Dokumentasi</div>
+        </div>
+
+        <div class="kelompok-card">
+          <div class="kelompok-avatar">F</div>
+          <div class="kelompok-name">Nama Anggota 6</div>
+          <div class="kelompok-role">Editor</div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer>
+    <div>© 2025 — Tugas Agama Hindu · SMK TI</div>
+    <div>Pura Luhur Muncaksari, Tabanan, Bali</div>
+  </footer>
+
+  <!-- LIGHTBOX -->
+  <div class="lightbox-overlay" id="lightboxOverlay" onclick="closeLightbox()">
+    <button class="lightbox-close" onclick="closeLightbox()">✕</button>
+    <img class="lightbox-img" id="lightboxImg" src="" alt=""/>
+    <div class="lightbox-caption" id="lightboxCaption"></div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
